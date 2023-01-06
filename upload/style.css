@@ -1,0 +1,129 @@
+#container{
+  width: 615px;
+}
+#calendar {
+  display:flex;
+  flex-wrap: wrap;
+}
+#yearheader{
+  font-size: 50px;
+  font-weight: bolder;
+  margin:10px;
+}
+#wrapper{
+  display:flex;
+}
+#thumbnail{
+  max-width: 460px;
+  border-radius: 15px;
+  margin:10px;
+}
+#uploadcontainter{
+  margin-left:20px;
+
+}
+#uploadimgcontainer{
+  margin:10px;
+}
+#vidscreenshot{
+  width:480px;
+  height:360px;
+  position:relative;
+  background-color: rgb(26, 26, 26);
+}
+#uploadiframe{
+  margin-left: 10px;
+}
+#vidtitle{
+  position:absolute;
+  top:255px;
+  margin-left:10px;
+  color:white;
+  font-size: 22px;
+  overflow-wrap: break-word;
+  font-family: "Roboto","Arial",sans-serif;
+}
+#views{
+  position:absolute;
+  bottom:0;
+  left:0;
+  margin:10px;
+  color:rgb(141, 141, 141);
+  font-size: 18px;
+  font-family: "Roboto","Arial",sans-serif;
+}
+#thumbnailcontainer{
+  position:relative;
+}
+#vidduration{
+  position: absolute;
+  bottom:3px;
+  right:15px;
+  background-color: rgba(0, 0, 0, 0.808);
+  color:white;
+  font-family: "Roboto","Arial",sans-serif;
+  border-radius: 5px;
+  padding:3px;
+}
+#uploaddate{
+  font-size: 25px;
+  margin:5px;
+}
+#videoheader{
+  margin: 10px;
+  font-size: 50px;
+  font-weight:bolder;
+}
+#heading{
+  display:flex;
+}
+.buttons{
+  width:85px;
+  height:35px;
+  margin:5px;
+  margin-top:24px;
+}
+.day {
+  text-align: center;
+  cursor: pointer;
+  margin:5px;
+  flex-basis:16px;
+  height:18px;
+}
+.day:hover {
+  color:red;
+}
+.month{
+  width:185px;
+  display:flex;
+  flex-wrap: wrap;
+  margin:10px;
+}
+.monthheader{
+  font-size: 26px;
+  font-weight: bold;
+  flex-basis: 100%;
+  
+}
+.highlighted{
+  border-style:solid;
+  border-color:rgb(255, 114, 114);
+  background-color: rgb(255, 114, 114);
+  border-radius: 50px;
+  border-width: 5px;
+  margin:0px;
+}
+.highlighted:hover{
+  border-color:rgb(48, 51, 255);
+  background-color: rgb(48, 51, 255);
+  color:white;
+}
+.today{
+  color:white;
+  border-radius: 50px;
+  border-width:5px;
+  border-style:solid;
+  border-color:blue;
+  background-color:blue;
+  margin:0px;
+}
