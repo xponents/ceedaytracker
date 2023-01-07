@@ -13,7 +13,7 @@
 
 var uploadedvids;
 
-const yeardate = new Date;
+var yeardate = new Date;
 var yearrn = yeardate.getFullYear();
 var monthrn = yeardate.getMonth()+1;
 var dayrn = yeardate.getDay();
