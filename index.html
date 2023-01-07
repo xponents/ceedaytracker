@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Ceeday Tracker</title>
+	<link rel="stylesheet" href="./style.css">
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			<div id="container">
+				<div id="heading">
+					<p id="yearheader"></p>
+					<button class="buttons" onclick="prevyear();">Prev</button>
+					<button class="buttons"onclick="nextyear();">Next</button>
+				</div>
+				<hr>
+				<div id="calendar"></div>
+			</div>
+			<div id="uploadcontainter">
+				<p id="videoheader">Video:</p>
+				<div id="uploadimgcontainer">
+					<p id="uploaddate"></p>
+					<div id="vidscreenshot">
+						<div id="thumbnailcontainer">
+							<img src="" id="thumbnail" alt="no vid">
+							<p id="vidduration">00:00</p>
+						</div>
+						<p id="vidtitle">title</p>
+						<p id="views">views - days ago</p>
+					</div>
+				</div>
+				<iframe height=360 width=480 id="uploadiframe" src =''></iframe>
+			</div>
+		</div>
+
+		<script src='index.js'></script>
+		
+		
+	</body>
+</html>
