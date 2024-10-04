@@ -92,7 +92,7 @@ def bestthumbnail(vid):
 #put a link of a video uploaded by the channel that you want to be scraped
 link = 'https://www.youtube.com/watch?v=YHGMfQ1TDPA&ab_channel=Dream'
 #put youtube api key here
-apikey = "AIzaSyBD9vhklKwshAGGjnKPS_oTlzJfWA7Sf8Q"
+apikey = ""
 uploadlist = []
 print('youtube api')
 
